@@ -21,7 +21,18 @@
     ]
   },
   "organizeImports": {
-    "enabled": true
+    "enabled": true,
+    "ignore": [
+      ".next",
+      ".vercel",
+      ".env",
+      ".changeset",
+      ".husky",
+      ".turbo",
+      "node_modules",
+      "build",
+      "dist"
+    ]
   },
   "linter": {
     "enabled": true,
