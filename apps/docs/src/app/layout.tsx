@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/root-layout.css";
-import { fonts } from "@/lib/fonts";
 import { cn } from "@repo/lib";
+import { fonts } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "Turborepo Essential",
